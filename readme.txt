@@ -10,3 +10,6 @@ git clone git@github.com:demonDzerjinsky/build.git
 docker build . -t cdb-ptd-img
 
 docker run -it --rm --name cdb-ptd-service -p 8080:8080 cdb-ptd-img 
+
+4. Подключение из браузера:
+http://cdb-dev:8080/api/kin/
